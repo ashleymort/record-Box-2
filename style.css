@@ -13,7 +13,6 @@ body {
 }
 #grid-container {
   display: grid;
-
   width: 1000px;
   grid-template-columns: 1fr repeat(12);
   grid-template-rows: 1fr repeat(12);
@@ -25,11 +24,13 @@ nav {
   align-content: center;
   justify-content: space-evenly;
   position: fixed;
-  width: 1200px;
+  width: 1000px;
+  padding: 0.5rem;
+  margin-left: 3rem;
 }
 
 nav a {
-  color: white;
+  color: hsla(0, 21%, 51%, 0.767);
   font-size: 2rem;
   text-decoration: none;
 }
@@ -37,29 +38,55 @@ nav a {
 .mainHeading {
   font-size: 200px;
   font-family: "Righteous", cursive;
-  color: hsla(0, 21%, 51%, 0.767);
+  color: hsla(61, 97%, 49%, 0.794);
   text-align: center;
+  padding-left: 3rem;
+}
+.mainHeading span {
+  font-style: italic;
+  letter-spacing: 0.95rem;
 }
 
 h2 {
-  font-size: 50px;
-  color: hsla(0, 0%, 100%, 0.609);
-  text-align: center;
-}
-form {
-  justify-self: center;
-}
-label {
-  font-size: 18px;
+  font-size: 60px;
+  font-weight: bold;
+  color: hsla(61, 97%, 49%, 0.965);
   text-align: center;
 }
 
-h3 {
+.searchBar {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+form {
+  background-color: hsla(0, 20%, 3%, 0.815);
+  padding: 1rem;
+  border: 1px solid hsla(0, 20%, 3%, 0.965);
+}
+
+label {
   font-size: 20px;
-  text-align: left;
+  align-content: center;
+  color: hsla(0, 21%, 51%, 0.767);
+}
+
+h3 {
+  padding-top: 2rem;
+  font-size: 20px;
+  text-align: right;
+  color: hsla(0, 20%, 3%, 0.815);
 }
 
 footer p {
   font-size: 10px;
-  color: white;
+  color: hsla(0, 20%, 3%, 0.815);
+  text-align: right;
+  clear: both;
+}
+#mailIcon {
+  float: right;
+  width: 2rem;
+  height: 2rem;
+  padding-bottom: 1rem;
 }

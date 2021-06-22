@@ -11,6 +11,46 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.rock {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  background-image: url("./images/rockBackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.metal {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  background-image: url("./images/metalBackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.electronic {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  background-image: url("./images/electronicBackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pop {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  background-image: url("./images/popBackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.indie {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  background-image: url("./images/indieBackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 nav {
   background-color: hsla(0, 0%, 0%, 0.835);

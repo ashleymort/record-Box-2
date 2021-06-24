@@ -100,7 +100,22 @@ footer p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#rockContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: flex-start;
+  padding-top: -10rem;
+  padding-bottom: 3rem;
+}
 
+.rockImage {
+  margin-top: 8px;
+  width: 150px;
+  height: 150px;
+  border: 0.5px solid hsla(61, 97%, 49%, 0.794);
+}
 /*Metal page*/
 
 .metal {

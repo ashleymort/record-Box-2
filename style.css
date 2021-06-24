@@ -111,6 +111,22 @@ footer p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#metalContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: flex-start;
+  padding-top: -10rem;
+  padding-bottom: 3rem;
+}
+
+.metalImage {
+  margin-top: 8px;
+  width: 150px;
+  height: 150px;
+  border: 0.5px solid hsla(61, 97%, 49%, 0.794);
+}
 
 /*Elctronic page*/
 .electroHeading {
@@ -160,6 +176,23 @@ footer p {
   background-size: cover;
 }
 
+#popContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: flex-start;
+  padding-top: -10rem;
+  padding-bottom: 3rem;
+}
+
+.popImage {
+  margin-top: 8px;
+  width: 150px;
+  height: 150px;
+  border: 0.5px solid hsla(61, 97%, 49%, 0.794);
+}
+
 /*indie page*/
 
 .indie {
@@ -170,7 +203,22 @@ footer p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#indieContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: flex-start;
+  padding-top: -10rem;
+  padding-bottom: 3rem;
+}
 
+.indieImage {
+  margin-top: 8px;
+  width: 150px;
+  height: 150px;
+  border: 0.5px solid hsla(61, 97%, 49%, 0.794);
+}
 /* contact Page*/
 
 .buttonContainer {

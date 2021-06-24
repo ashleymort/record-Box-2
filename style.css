@@ -1,3 +1,5 @@
+/*global styles*/
+
 html {
   font-size: 16px;
   box-sizing: border-box;
@@ -7,46 +9,6 @@ body {
   font-size: 16px;
   font-family: "Lato", sans-serif;
   background-image: url("./images/main_background.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.rock {
-  font-size: 16px;
-  font-family: "Lato", sans-serif;
-  background-image: url("./images/rockBackground.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.metal {
-  font-size: 16px;
-  font-family: "Lato", sans-serif;
-  background-image: url("./images/metalBackground.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.electronic {
-  font-size: 16px;
-  font-family: "Lato", sans-serif;
-  background-image: url("./images/electronicBackground.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.pop {
-  font-size: 16px;
-  font-family: "Lato", sans-serif;
-  background-image: url("./images/popBackground.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.indie {
-  font-size: 16px;
-  font-family: "Lato", sans-serif;
-  background-image: url("./images/indieBackground.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -127,6 +89,89 @@ footer p {
   height: auto;
   padding-right: 1.5rem;
 }
+
+/*Rock Page*/
+
+.rock {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  background-image: url("./images/rockBackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Metal page*/
+
+.metal {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  background-image: url("./images/metalBackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Elctronic page*/
+.electroHeading {
+  font-size: 200px;
+  font-family: "Righteous", cursive;
+  color: hsla(61, 97%, 49%, 0.794);
+  text-align: center;
+  padding-left: 3rem;
+}
+.electroHeading span {
+  font-style: italic;
+  letter-spacing: 2rem;
+}
+.electronic {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  background-image: url("./images/electronicBackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#electroContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: flex-start;
+  padding-top: -10rem;
+  padding-bottom: 3rem;
+}
+
+.electroImage {
+  margin-top: 8px;
+  width: 150px;
+  height: 150px;
+  border: 0.5px solid hsla(61, 97%, 49%, 0.794);
+}
+
+/*Pop page*/
+.pop {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  background-image: url("./images/popBackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*indie page*/
+
+.indie {
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  background-image: url("./images/indieBackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* contact Page*/
 
 .buttonContainer {
   display: flex;

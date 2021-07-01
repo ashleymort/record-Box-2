@@ -156,29 +156,59 @@ footer p {
   letter-spacing: 2rem;
 }
 .electronic {
-  font-size: 16px;
-  font-family: "Lato", sans-serif;
   background-image: url("./images/electronicBackground.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#electroContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-content: flex-start;
-  padding-top: -10rem;
-  padding-bottom: 3rem;
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  margin-top: 0;
 }
 
-.electroImage {
-  margin-top: 8px;
-  width: 150px;
-  height: 150px;
-  border: 0.5px solid hsla(61, 97%, 49%, 0.794);
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  max-width: 400px;
+  max-height: 400px;
+  margin-left: 110px;
+  border: 1px solid hsla(61, 97%, 49%, 0.794);
+  margin-bottom: 3rem;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: 540px;
+  margin-left: 3rem;
+  color: hsla(61, 97%, 49%, 0.794);
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  border-radius: 3px;
+  border: 1px solid hsla(61, 97%, 49%, 0.794);
+  user-select: none;
+  -webkit-user-select: none;
+}
+.prev:hover {
+  background-color: hsla(0, 20%, 3%, 0.815);
+}
+.next:hover {
+  background-color: hsla(0, 20%, 3%, 0.815);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  margin-right: 33.5rem;
+  border-radius: 3px;
 }
 
 /*Pop page*/

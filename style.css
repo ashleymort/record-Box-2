@@ -43,17 +43,21 @@ nav a {
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 40px;
+  font-family: "Righteous", cursive;
   font-weight: bold;
   color: hsla(61, 97%, 49%, 0.965);
-  text-align: center;
+  text-align: left;
+  padding: 2rem;
 }
 
 .searchBar {
   display: flex;
   align-content: center;
   justify-content: center;
+  margin-bottom: 10rem;
 }
+
 form {
   background-color: hsla(0, 20%, 3%, 0.815);
   padding: 1rem;
@@ -61,7 +65,8 @@ form {
 }
 
 label {
-  font-size: 20px;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
   align-content: center;
   color: hsla(0, 21%, 51%, 0.767);
 }
@@ -90,6 +95,13 @@ footer p {
   padding-right: 1.5rem;
 }
 
+section {
+  background-color: hsla(0, 20%, 3%, 0.596);
+  padding-top: 0.5rem;
+  padding-bottom: 3rem;
+  z-index: 1;
+}
+
 /*Rock Page*/
 
 .rock {
@@ -100,22 +112,7 @@ footer p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-#rockContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-content: flex-start;
-  padding-top: -10rem;
-  padding-bottom: 3rem;
-}
 
-.rockImage {
-  margin-top: 8px;
-  width: 150px;
-  height: 150px;
-  border: 0.5px solid hsla(61, 97%, 49%, 0.794);
-}
 /*Metal page*/
 
 .metal {
@@ -126,24 +123,8 @@ footer p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-#metalContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-content: flex-start;
-  padding-top: -10rem;
-  padding-bottom: 3rem;
-}
 
-.metalImage {
-  margin-top: 8px;
-  width: 150px;
-  height: 150px;
-  border: 0.5px solid hsla(61, 97%, 49%, 0.794);
-}
-
-/*Elctronic page*/
+/*Electronic page*/
 .electroHeading {
   font-size: 200px;
   font-family: "Righteous", cursive;
@@ -185,13 +166,13 @@ footer p {
   position: absolute;
   top: 40%;
   width: auto;
-  padding: 16px;
-  margin-top: 540px;
+  padding: 10px;
+  margin-top: 560px;
   margin-left: 3rem;
   color: hsla(61, 97%, 49%, 0.794);
   font-family: "Lato", sans-serif;
   font-weight: bold;
-  font-size: 26px;
+  font-size: 20px;
   border-radius: 3px;
   border: 1px solid hsla(61, 97%, 49%, 0.794);
   user-select: none;
@@ -221,23 +202,6 @@ footer p {
   background-size: cover;
 }
 
-#popContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-content: flex-start;
-  padding-top: -10rem;
-  padding-bottom: 3rem;
-}
-
-.popImage {
-  margin-top: 8px;
-  width: 150px;
-  height: 150px;
-  border: 0.5px solid hsla(61, 97%, 49%, 0.794);
-}
-
 /*indie page*/
 
 .indie {
@@ -248,22 +212,7 @@ footer p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-#indieContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-content: flex-start;
-  padding-top: -10rem;
-  padding-bottom: 3rem;
-}
 
-.indieImage {
-  margin-top: 8px;
-  width: 150px;
-  height: 150px;
-  border: 0.5px solid hsla(61, 97%, 49%, 0.794);
-}
 /* contact Page*/
 
 .buttonContainer {

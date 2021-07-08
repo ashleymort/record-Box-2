@@ -30,6 +30,10 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  color: hsla(61, 97%, 49%, 0.794);
+}
+
 .mainHeading {
   font-size: 12.5rem;
   font-family: "Righteous", cursive;
@@ -68,6 +72,11 @@ label {
   font-size: 1.125rem;
   font-family: "Lato", sans-serif;
   align-content: center;
+  color: hsla(0, 21%, 51%, 0.767);
+}
+
+input {
+  border: 2px solid hsla(0, 21%, 51%, 0.767);
   color: hsla(0, 21%, 51%, 0.767);
 }
 
@@ -176,9 +185,11 @@ section {
 }
 .prev:hover {
   background-color: hsla(0, 20%, 3%, 0.815);
+  border: 3px solid hsla(61, 97%, 49%, 0.794);
 }
 .next:hover {
   background-color: hsla(0, 20%, 3%, 0.815);
+  border: 3px solid hsla(61, 97%, 49%, 0.794);
 }
 
 /* Position the "next button" to the right */

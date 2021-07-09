@@ -17,11 +17,13 @@ body {
 nav {
   background-color: hsla(0, 0%, 0%, 0.835);
   display: flex;
+  flex-flow: row wrap;
   align-content: flex-start;
   justify-content: space-evenly;
   position: sticky;
   width: 100%;
-  padding: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 nav a {
@@ -40,7 +42,54 @@ nav a:hover {
   color: hsla(61, 97%, 49%, 0.794);
   text-align: center;
   padding-left: 3rem;
+  animation: fadeIn 15s;
+  animation-delay: 30s;
+  -moz-animation: fadeIn 15s;
+  -webkit-animation: fadeIn 15s;
+  -o-animation: fadeIn 15s;
+  -ms-animation: fadeIn 15s;
 }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .mainHeading span {
   font-style: italic;
   letter-spacing: 0.95rem;
@@ -136,7 +185,54 @@ section {
   color: hsla(61, 97%, 49%, 0.794);
   text-align: center;
   padding-left: 3rem;
+  animation: fadeIn 15s;
+  animation-delay: 30s;
+  -moz-animation: fadeIn 15s;
+  -webkit-animation: fadeIn 15s;
+  -o-animation: fadeIn 15s;
+  -ms-animation: fadeIn 15s;
 }
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .electroHeading span {
   font-style: italic;
   letter-spacing: 2rem;
@@ -231,4 +327,157 @@ section {
   width: 3.75rem;
   width: 3.75rem;
   padding-right: 1.5rem;
+}
+
+@media only screen and (max-width: 480px) {
+  nav {
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    position: sticky;
+  }
+
+  nav a {
+    color: hsla(0, 21%, 51%, 0.767);
+    font-size: 1.1rem;
+  }
+
+  .mainHeading,
+  .electroHeading {
+    font-size: 4rem;
+    margin-bottom: 10rem;
+    padding-left: 0;
+  }
+  .electroHeading span {
+    letter-spacing: 0.7rem;
+  }
+  .mainHeading span {
+    letter-spacing: 0.3rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .mySlides {
+    width: 12rem;
+    height: 12rem;
+    border: 0.5px solid hsla(61, 97%, 49%, 0.794);
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+  }
+  .prev,
+  .next {
+    top: 40%;
+    width: auto;
+    padding: 0.4rem;
+    margin-top: 24rem;
+    margin-left: 2.5rem;
+    font-size: 1.25rem;
+  }
+  .next {
+    right: 0;
+    margin-right: 3rem;
+    border-radius: 0.1875rem;
+  }
+  .next:hover,
+  .prev:hover {
+    border: 1.2px solid hsla(61, 97%, 49%, 0.794);
+  }
+  #mailIcon {
+    width: 9rem;
+    height: 9rem;
+    float: none;
+    align-self: center;
+    margin-left: 6rem;
+    margin-right: auto;
+  }
+  .icon2 {
+    width: 9rem;
+    height: 9rem;
+    margin-bottom: 8rem;
+    float: none;
+    align-self: center;
+    margin-left: 6rem;
+    margin-right: auto;
+  }
+}
+/* -------media screen phone-------*/
+
+@media only screen and (max-width: 360px) {
+  nav {
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    position: sticky;
+  }
+
+  nav a {
+    color: hsla(0, 21%, 51%, 0.767);
+    font-size: 1.1rem;
+  }
+
+  .mainHeading,
+  .electroHeading {
+    font-size: 4rem;
+    margin-bottom: 10rem;
+    padding-left: 0;
+  }
+  .electroHeading span {
+    letter-spacing: 0.7rem;
+  }
+  .mainHeading span {
+    letter-spacing: 0.3rem;
+  }
+  h2 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .mySlides {
+    width: 12rem;
+    height: 12rem;
+    border: 0.5px solid hsla(61, 97%, 49%, 0.794);
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: center;
+  }
+  .prev,
+  .next {
+    top: 40%;
+    width: auto;
+    padding: 0.4rem;
+    margin-top: 24rem;
+    margin-left: 2.5rem;
+    font-size: 1.25rem;
+  }
+  .next {
+    right: 0;
+    margin-right: 3rem;
+    border-radius: 0.1875rem;
+  }
+  .next:hover,
+  .prev:hover {
+    border: 1.2px solid hsla(61, 97%, 49%, 0.794);
+  }
+  #mailIcon {
+    width: 9rem;
+    height: 9rem;
+    float: none;
+    align-self: center;
+    margin-left: 6rem;
+    margin-right: auto;
+  }
+  .icon2 {
+    width: 9rem;
+    height: 9rem;
+    margin-bottom: 8rem;
+    float: none;
+    align-self: center;
+    margin-left: 6rem;
+    margin-right: auto;
+  }
 }
